@@ -1,0 +1,1597 @@
+[
+  {
+    "step": "execution_mode",
+    "summary": "Resolved execution mode.",
+    "data": {
+      "requested_mode": "agent",
+      "actual_mode": "agent",
+      "requested_model": "llama-3.1-8b-instant",
+      "active_model": "llama-3.1-8b-instant",
+      "groq_available": true,
+      "fallback_reason": ""
+    }
+  },
+  {
+    "step": "search_planner",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "search_planner",
+    "summary": "Planned search queries.",
+    "data": {
+      "round": 1,
+      "queries": [
+        "\"Guy Kimhi\" site:twitter.com",
+        "\"Guy Kimhi\" site:instagram.com",
+        "\"Guy Kimhi\" site:facebook.com",
+        "\"Guy Kimhi\" site:youtube.com",
+        "\"Guy Kimhi\" site:medium.com",
+        "\"Guy Kimhi\" site:substack.com",
+        "\"Guy Kimhi\" site:about.me"
+      ],
+      "discovered_clues": {}
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:twitter.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3937aad0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:twitter.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:instagram.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3937bb10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:instagram.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:facebook.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f0410>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:facebook.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:youtube.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f07d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:youtube.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:medium.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f0b90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:medium.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:substack.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f0f50>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:substack.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:about.me",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f1310>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"Guy Kimhi\" site:about.me",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "direct_probe",
+    "summary": "Generated direct profile probes.",
+    "data": {
+      "count": 24,
+      "sample_urls": [
+        "https://x.com/guykimhi",
+        "https://twitter.com/guykimhi",
+        "https://www.instagram.com/guykimhi/",
+        "https://www.facebook.com/guykimhi/",
+        "https://github.com/guykimhi",
+        "https://dev.to/guykimhi"
+      ]
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.merriam-webster.com/dictionary/guy",
+      "platform": "merriam-webster.com",
+      "score": 0,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://dictionary.cambridge.org/dictionary/english/guy",
+      "platform": "dictionary.cambridge.org",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://en.wiktionary.org/wiki/guy",
+      "platform": "en.wiktionary.org",
+      "score": 0,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/guy_1",
+      "platform": "oxfordlearnersdictionaries.com",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.oed.com/dictionary/guy_n1",
+      "platform": "oed.com",
+      "score": 0,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.collinsdictionary.com/dictionary/english/guy",
+      "platform": "collinsdictionary.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.vocabulary.com/dictionary/guy",
+      "platform": "vocabulary.com",
+      "score": 0,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.wordreference.com/definition/guy",
+      "platform": "wordreference.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.dictionary.com/browse/guy",
+      "platform": "dictionary.com",
+      "score": 0,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.definitions.net/definition/GUY",
+      "platform": "definitions.net",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://x.com/guykimhi",
+      "platform": "X",
+      "score": 30,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://twitter.com/guykimhi",
+      "platform": "Twitter",
+      "score": 30,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.instagram.com/guykimhi/",
+      "platform": "Instagram",
+      "score": 30,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.facebook.com/guykimhi/",
+      "platform": "Facebook",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://github.com/guykimhi",
+      "platform": "GitHub",
+      "score": 30,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://dev.to/guykimhi",
+      "platform": "Dev.to",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://medium.com/@guykimhi",
+      "platform": "Medium",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://about.me/guykimhi",
+      "platform": "About.me",
+      "score": 70,
+      "page_type": "social_profile",
+      "decision": "accepted"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.youtube.com/@guykimhi",
+      "platform": "YouTube",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://guykimhi.substack.com",
+      "platform": "Substack",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://x.com/guy_kimhi",
+      "platform": "X",
+      "score": 25,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://twitter.com/guy_kimhi",
+      "platform": "Twitter",
+      "score": 25,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.instagram.com/guy_kimhi/",
+      "platform": "Instagram",
+      "score": 25,
+      "page_type": "social_profile",
+      "decision": "manual_review"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.facebook.com/guy_kimhi/",
+      "platform": "Facebook",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "search_loop",
+    "summary": "Prepared discovered clues for the next round.",
+    "data": {
+      "round": 1,
+      "clues": {
+        "handle": "guykimhi",
+        "company": "Spirit Labs Ai",
+        "role": "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend",
+        "location": "Israel",
+        "website": "https://help.x.com/using-x/x-supported-browsers"
+      }
+    }
+  },
+  {
+    "step": "search_planner",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "search_planner",
+    "summary": "Planned search queries.",
+    "data": {
+      "round": 2,
+      "queries": [
+        "\"guykimhi\" site:x.com",
+        "\"guykimhi\" site:twitter.com",
+        "\"guykimhi\" site:instagram.com",
+        "\"guykimhi\" site:github.com",
+        "\"guykimhi\" site:medium.com",
+        "\"Guy Kimhi\" \"Spirit Labs Ai\" site:x.com",
+        "\"Guy Kimhi\" \"Spirit Labs Ai\" site:youtube.com",
+        "\"Guy Kimhi\" \"Spirit Labs Ai\" (\"team\" OR \"bio\" OR \"author\")"
+      ],
+      "discovered_clues": {
+        "handle": "guykimhi",
+        "company": "Spirit Labs Ai",
+        "role": "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend",
+        "location": "Israel",
+        "website": "https://help.x.com/using-x/x-supported-browsers"
+      }
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"guykimhi\" site:x.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3937b890>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"guykimhi\" site:x.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"guykimhi\" site:twitter.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3a7f20d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"guykimhi\" site:twitter.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "DuckDuckGo query failed.",
+    "data": {
+      "query": "\"guykimhi\" site:instagram.com",
+      "provider": "duckduckgo",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x14a3937b890>, 'Connection to html.duckduckgo.com timed out. (connect timeout=15)'))"
+    }
+  },
+  {
+    "step": "search_tool",
+    "summary": "Executed web search query.",
+    "data": {
+      "query": "\"guykimhi\" site:instagram.com",
+      "search_provider": "bing_rss",
+      "search_status": "ok",
+      "result_count": 10
+    }
+  },
+  {
+    "step": "direct_probe",
+    "summary": "Generated direct profile probes.",
+    "data": {
+      "count": 16,
+      "sample_urls": [
+        "https://github.com/guy.kimhi",
+        "https://dev.to/guy.kimhi",
+        "https://medium.com/@guy.kimhi",
+        "https://about.me/guy.kimhi",
+        "https://www.youtube.com/@guy.kimhi",
+        "https://guy.kimhi.substack.com"
+      ]
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "http://www.sdhg.edu.cn/",
+      "platform": "sdhg.edu.cn",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "http://www.qledu.net/",
+      "platform": "qledu.net",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%8C%96%E5%B7%A5%E8%81%8C%E4%B8%9A%E5%AD%A6%E9%99%A2/1611312",
+      "platform": "baike.baidu.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.eduip.cn/index/School/index/school_id/2285",
+      "platform": "eduip.cn",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3",
+      "platform": "baike.sogou.com",
+      "score": 5,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://gaokao.chsi.com.cn/sch/viewdksw--infoId-6744341808,categoryId-422043,schId-1654.dhtml",
+      "platform": "gaokao.chsi.com.cn",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html",
+      "platform": "chinaschool.com.cn",
+      "score": 5,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://heec.cahe.edu.cn/school/2554/jianjie",
+      "platform": "heec.cahe.edu.cn",
+      "score": 5,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.sdp.edu.cn/",
+      "platform": "sdp.edu.cn",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.sdvcst.edu.cn/",
+      "platform": "sdvcst.edu.cn",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+      "platform": "support.google.com",
+      "score": 5,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform%3DAndroid",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/?hl=en",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/?hl=fr",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/answer/3092445?hl=en-uk&co=GENIE.Platform%3DDesktop",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/answer/3615175?hl=en-GB&co=GENIE.Platform%3DAndroid",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "directory_or_search",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/?hl=id",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+      "platform": "support.google.com",
+      "score": 5,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/?hl=ar",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq returned structured JSON.",
+    "data": {
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://support.google.com/maps/?hl=hu",
+      "platform": "support.google.com",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://www.yahoo.co.jp/",
+      "platform": "yahoo.co.jp",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://yahoo.jp/_hYdGM",
+      "platform": "yahoo.jp",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://news.yahoo.co.jp/",
+      "platform": "news.yahoo.co.jp",
+      "score": 0,
+      "page_type": "unknown",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "evidence_extractor",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "identity_verifier",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "step": "candidate_assessment",
+    "summary": "Assessed candidate page.",
+    "data": {
+      "url": "https://apps.apple.com/jp/app/yahoo-japan/id299147843",
+      "platform": "apps.apple.com",
+      "score": 13,
+      "page_type": "content_page",
+      "decision": "rejected"
+    }
+  },
+  {
+    "step": "search_loop",
+    "summary": "Prepared discovered clues for the next round.",
+    "data": {
+      "round": 2,
+      "clues": {
+        "handle": "guykimhi",
+        "company": "Spirit Labs Ai",
+        "role": "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend",
+        "location": "Israel",
+        "website": "https://help.x.com/using-x/x-supported-browsers"
+      }
+    }
+  },
+  {
+    "step": "report_synthesizer",
+    "summary": "Groq request failed.",
+    "data": {
+      "error": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.1-8b-instant"
+    }
+  }
+]

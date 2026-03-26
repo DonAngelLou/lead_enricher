@@ -1,0 +1,1284 @@
+{
+  "execution_mode": "agent",
+  "model_info": {
+    "requested_mode": "agent",
+    "requested_model": "llama-3.1-8b-instant",
+    "active_model": "llama-3.1-8b-instant",
+    "groq_available": true,
+    "fallback_reason": ""
+  },
+  "lead_profile": {
+    "linkedin_url": "https://www.linkedin.com/in/guykimhi/",
+    "full_name": "Guy Kimhi",
+    "first_name": "Guy",
+    "last_name": "Kimhi",
+    "headline": "Leader in technology, entrepreneurship and business development",
+    "company": "Spirit Labs Ai",
+    "location": "Israel",
+    "slug": "guykimhi",
+    "search_queries": [
+      "\"Guy Kimhi\" site:x.com",
+      "\"Guy Kimhi\" site:twitter.com",
+      "\"Guy Kimhi\" site:instagram.com",
+      "\"Guy Kimhi\" site:facebook.com",
+      "\"Guy Kimhi\" site:youtube.com",
+      "\"Guy Kimhi\" site:medium.com",
+      "\"Guy Kimhi\" site:substack.com",
+      "\"Guy Kimhi\" site:about.me",
+      "\"Guy Kimhi\" (\"official site\" OR website OR blog OR newsletter OR portfolio)",
+      "\"Guy Kimhi\" (site:medium.com OR site:substack.com OR site:about.me OR site:github.com OR site:dev.to)",
+      "\"Guy Kimhi\" (\"author\" OR \"team\" OR \"speaker\" OR \"bio\")",
+      "\"Guy Kimhi\" \"Spirit Labs Ai\" (\"team\" OR \"bio\" OR \"author\")",
+      "\"Guy Kimhi\" official",
+      "\"Guy Kimhi\" \"Spirit Labs Ai\"",
+      "\"Guy Kimhi\" \"Israel\"",
+      "\"guykimhi\" site:x.com",
+      "\"guykimhi\" site:twitter.com",
+      "\"guykimhi\" site:instagram.com",
+      "\"guykimhi\" site:github.com",
+      "\"guykimhi\" site:medium.com",
+      "\"Guy Kimhi\" \"Spirit Labs Ai\" site:x.com",
+      "\"Guy Kimhi\" \"Spirit Labs Ai\" site:youtube.com"
+    ],
+    "source_notes": [
+      "Seeded from the LinkedIn URL slug.",
+      "Parsed name from LinkedIn structured data.",
+      "Parsed company from LinkedIn structured data.",
+      "Parsed location from LinkedIn structured data.",
+      "Parsed name from the LinkedIn page title.",
+      "Parsed headline/company/location from LinkedIn meta description."
+    ]
+  },
+  "accepted_matches": [
+    {
+      "match": {
+        "candidate_url": "https://about.me/guykimhi",
+        "platform": "About.me",
+        "confidence_score": 70,
+        "confidence_label": "strong",
+        "reasons": [
+          "URL path matches a public profile format on the platform.",
+          "Structured data describes the page as a Person/ProfilePage.",
+          "Exact full-name match found in title/description/page text.",
+          "Username/handle overlaps with the LinkedIn slug.",
+          "Role/headline overlap detected: business, entrepreneurship, technology."
+        ],
+        "evidence": {
+          "url": "https://about.me/guykimhi",
+          "title": "Guy Kimhi - Tel Aviv, ישראל | about.me",
+          "description": "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event.",
+          "text_excerpt": "Guy Kimhi marketing manager , business owner , and Teacher in Tel Aviv, ישראל Guy Kimhi marketing manager , business owner , and Teacher in Tel Aviv, ישראל Hi, I’m Guy. I’m a marketing manager living in Tel Aviv, ישראל. I am a fan of technology, entrepreneurship, and travel. I’m also interested in reading and animals. You can attend my event with a click on the button above.",
+          "domain": "about.me",
+          "platform": "About.me",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform.",
+            "Structured data describes the page as a Person/ProfilePage.",
+            "Page content includes profile-style terms."
+          ],
+          "warning_signals": [],
+          "outgoing_links": []
+        }
+      },
+      "facts": {
+        "display_name": "Guy Kimhi",
+        "handle": "guykimhi",
+        "bio": "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event.",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://about.me/guykimhi"
+        ],
+        "evidence_snippets": [
+          "Guy Kimhi - Tel Aviv, ישראל | about.me",
+          "I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event.",
+          "Guy Kimhi marketing manager , business owner , and Teacher in Tel Aviv, ישראל Guy Kimhi marketing manager , business owner , and Teacher in Tel Aviv, ישראל Hi, I’m Guy. I’m a marketing manager living in Tel Aviv, ישראל. "
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "accepted",
+        "rationale": "Candidate is a real profile URL and passed the identity-evidence gate.",
+        "matched_signals": [
+          "Full name aligns between LinkedIn seed and candidate profile.",
+          "Candidate handle overlaps with the LinkedIn slug.",
+          "Shared role/headline clue: business."
+        ],
+        "citations": [
+          "URL: https://about.me/guykimhi",
+          "Title: Guy Kimhi - Tel Aviv, ישראל | about.me",
+          "Description: I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event."
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform.",
+          "Structured data describes the page as a Person/ProfilePage.",
+          "Exact full-name match found in title/description/page text."
+        ],
+        "decided_by": "heuristic"
+      }
+    }
+  ],
+  "manual_review_candidates": [
+    {
+      "match": {
+        "candidate_url": "https://x.com/guykimhi",
+        "platform": "X",
+        "confidence_score": 30,
+        "confidence_label": "weak",
+        "reasons": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "evidence": {
+          "url": "https://x.com/guykimhi",
+          "title": "Direct probe: X guykimhi",
+          "description": "",
+          "text_excerpt": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.",
+          "domain": "x.com",
+          "platform": "X",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://help.x.com/using-x/x-supported-browsers",
+            "https://x.com/tos",
+            "https://x.com/privacy",
+            "https://support.x.com/articles/20170514",
+            "https://legal.twitter.com/imprint.html",
+            "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "Direct probe: X guykimhi",
+        "handle": "guykimhi",
+        "bio": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center.",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://x.com/guykimhi",
+          "https://help.x.com/using-x/x-supported-browsers",
+          "https://x.com/tos",
+          "https://x.com/privacy",
+          "https://support.x.com/articles/20170514",
+          "https://legal.twitter.com/imprint.html",
+          "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html"
+        ],
+        "evidence_snippets": [
+          "Direct probe: X guykimhi",
+          "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center."
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like.",
+          "Note: Bio and description are empty in candidate evidence"
+        ],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "Candidate handle overlaps with the LinkedIn slug."
+        ],
+        "citations": [
+          "URL: https://x.com/guykimhi",
+          "Title: Direct probe: X guykimhi"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://twitter.com/guykimhi",
+        "platform": "Twitter",
+        "confidence_score": 30,
+        "confidence_label": "weak",
+        "reasons": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "evidence": {
+          "url": "https://twitter.com/guykimhi",
+          "title": "Direct probe: Twitter guykimhi",
+          "description": "",
+          "text_excerpt": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.",
+          "domain": "twitter.com",
+          "platform": "Twitter",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://help.x.com/using-x/x-supported-browsers",
+            "https://x.com/tos",
+            "https://x.com/privacy",
+            "https://support.x.com/articles/20170514",
+            "https://legal.twitter.com/imprint.html",
+            "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "Direct probe: Twitter guykimhi",
+        "handle": "guykimhi",
+        "bio": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our ",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://twitter.com/guykimhi",
+          "https://help.x.com/using-x/x-supported-browsers",
+          "https://x.com/tos",
+          "https://x.com/privacy",
+          "https://support.x.com/articles/20170514",
+          "https://legal.twitter.com/imprint.html",
+          "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        ],
+        "evidence_snippets": [
+          "Direct probe: Twitter guykimhi",
+          "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our "
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "Candidate handle overlaps with the LinkedIn slug."
+        ],
+        "citations": [
+          "URL: https://twitter.com/guykimhi",
+          "Title: Direct probe: Twitter guykimhi"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://www.instagram.com/guykimhi/",
+        "platform": "Instagram",
+        "confidence_score": 30,
+        "confidence_label": "weak",
+        "reasons": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "evidence": {
+          "url": "https://www.instagram.com/guykimhi/",
+          "title": "Instagram",
+          "description": "",
+          "text_excerpt": "",
+          "domain": "instagram.com",
+          "platform": "Instagram",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": []
+        }
+      },
+      "facts": {
+        "display_name": "Guy Kimhi",
+        "handle": "guykimhi",
+        "bio": "",
+        "company": "Spirit Labs Ai",
+        "location": "Israel",
+        "links": [
+          "https://www.instagram.com/guykimhi/"
+        ],
+        "evidence_snippets": [
+          "Leader in technology, entrepreneurship and business development"
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "Full name aligns between LinkedIn seed and candidate profile.",
+          "Candidate handle overlaps with the LinkedIn slug.",
+          "Shared company clue: ai, labs, spirit.",
+          "Shared location clue: israel."
+        ],
+        "citations": [
+          "URL: https://www.instagram.com/guykimhi/",
+          "Title: Instagram"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://github.com/guykimhi",
+        "platform": "GitHub",
+        "confidence_score": 30,
+        "confidence_label": "weak",
+        "reasons": [
+          "URL path matches a public profile format on the platform.",
+          "Open Graph metadata marks this page as a profile.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "evidence": {
+          "url": "https://github.com/guykimhi",
+          "title": "guykimhi · GitHub",
+          "description": "GitHub is where guykimhi builds software.",
+          "text_excerpt": "Navigation Menu Search code, repositories, users, issues, pull requests... Provide feedback We read every piece of feedback, and take your input very seriously. Saved searches Use saved searches to filter your results more quickly To see all available qualifiers, see our documentation . guykimhi Block or report guykimhi Prevent this user from interacting with your repositories and sending you notifications. Learn more about blocking users . You must be logged in to block users.",
+          "domain": "github.com",
+          "platform": "GitHub",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform.",
+            "Open Graph metadata marks this page as a profile.",
+            "Page content includes profile-style terms."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://github.com/features/copilot",
+            "https://github.com/features/spark",
+            "https://github.com/features/models",
+            "https://github.com/mcp",
+            "https://github.com/features/actions",
+            "https://github.com/features/codespaces",
+            "https://github.com/features/issues",
+            "https://github.com/features/code-review",
+            "https://github.com/security/advanced-security",
+            "https://github.com/security/advanced-security/code-security",
+            "https://github.com/security/advanced-security/secret-protection",
+            "https://github.com/why-github"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "guykimhi · GitHub",
+        "handle": "guykimhi",
+        "bio": "GitHub is where guykimhi builds software.",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://github.com/guykimhi",
+          "https://github.com/features/copilot",
+          "https://github.com/features/spark",
+          "https://github.com/features/models",
+          "https://github.com/mcp",
+          "https://github.com/features/actions",
+          "https://github.com/features/codespaces"
+        ],
+        "evidence_snippets": [
+          "guykimhi · GitHub",
+          "GitHub is where guykimhi builds software.",
+          "Navigation Menu Search code, repositories, users, issues, pull requests... Provide feedback We read every piece of feedback, and take your input very seriously. Saved searches Use saved searches to filter your results mo"
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "Candidate handle overlaps with the LinkedIn slug."
+        ],
+        "citations": [
+          "URL: https://github.com/guykimhi",
+          "Title: guykimhi · GitHub",
+          "Description: GitHub is where guykimhi builds software."
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform.",
+          "Open Graph metadata marks this page as a profile.",
+          "Username/handle overlaps with the LinkedIn slug."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://x.com/guy_kimhi",
+        "platform": "X",
+        "confidence_score": 25,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "evidence": {
+          "url": "https://x.com/guy_kimhi",
+          "title": "Direct probe: X guy_kimhi",
+          "description": "",
+          "text_excerpt": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.",
+          "domain": "x.com",
+          "platform": "X",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://help.x.com/using-x/x-supported-browsers",
+            "https://x.com/tos",
+            "https://x.com/privacy",
+            "https://support.x.com/articles/20170514",
+            "https://legal.twitter.com/imprint.html",
+            "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "Direct probe: X guy_kimhi",
+        "handle": "guy_kimhi",
+        "bio": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our ",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://x.com/guy_kimhi",
+          "https://help.x.com/using-x/x-supported-browsers",
+          "https://x.com/tos",
+          "https://x.com/privacy",
+          "https://support.x.com/articles/20170514",
+          "https://legal.twitter.com/imprint.html",
+          "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        ],
+        "evidence_snippets": [
+          "Direct probe: X guy_kimhi",
+          "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our "
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "First and last name both appear on the candidate page."
+        ],
+        "citations": [
+          "URL: https://x.com/guy_kimhi",
+          "Title: Direct probe: X guy_kimhi"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://twitter.com/guy_kimhi",
+        "platform": "Twitter",
+        "confidence_score": 25,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "evidence": {
+          "url": "https://twitter.com/guy_kimhi",
+          "title": "Direct probe: Twitter guy_kimhi",
+          "description": "",
+          "text_excerpt": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp.",
+          "domain": "twitter.com",
+          "platform": "Twitter",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://help.x.com/using-x/x-supported-browsers",
+            "https://x.com/tos",
+            "https://x.com/privacy",
+            "https://support.x.com/articles/20170514",
+            "https://legal.twitter.com/imprint.html",
+            "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "Guy Kimhi",
+        "handle": "guy_kimhi",
+        "bio": "Leader in technology, entrepreneurship and business development",
+        "company": "Spirit Labs Ai",
+        "location": "Israel",
+        "links": [
+          "https://twitter.com/guy_kimhi",
+          "https://help.x.com/using-x/x-supported-browsers",
+          "https://x.com/tos",
+          "https://x.com/privacy",
+          "https://support.x.com/articles/20170514",
+          "https://legal.twitter.com/imprint.html",
+          "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        ],
+        "evidence_snippets": [
+          "Direct probe: Twitter guy_kimhi",
+          "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center."
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like.",
+          "Candidate evidence is from Twitter social profile."
+        ],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "Full name aligns between LinkedIn seed and candidate profile.",
+          "Shared company clue: ai, labs, spirit.",
+          "Shared role/headline clue: business, development, entrepreneurship, leader, technology.",
+          "Shared location clue: israel."
+        ],
+        "citations": [
+          "URL: https://twitter.com/guy_kimhi",
+          "Title: Direct probe: Twitter guy_kimhi"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://www.instagram.com/guy_kimhi/",
+        "platform": "Instagram",
+        "confidence_score": 25,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "evidence": {
+          "url": "https://www.instagram.com/guy_kimhi/",
+          "title": "Instagram",
+          "description": "",
+          "text_excerpt": "",
+          "domain": "instagram.com",
+          "platform": "Instagram",
+          "page_type": "social_profile",
+          "is_profile_like": true,
+          "is_directory_like": false,
+          "profile_signals": [
+            "URL path matches a public profile format on the platform."
+          ],
+          "warning_signals": [],
+          "outgoing_links": []
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "guy_kimhi",
+        "bio": "",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://www.instagram.com/guy_kimhi/"
+        ],
+        "evidence_snippets": [
+          "Instagram"
+        ],
+        "extraction_notes": [
+          "Candidate page is classified as profile-like."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "manual_review",
+        "rationale": "Candidate has some identity overlap but not enough evidence for acceptance.",
+        "matched_signals": [
+          "First and last name both appear on the candidate page."
+        ],
+        "citations": [
+          "URL: https://www.instagram.com/guy_kimhi/",
+          "Title: Instagram"
+        ],
+        "review_notes": [
+          "URL path matches a public profile format on the platform."
+        ],
+        "decided_by": "heuristic"
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "match": {
+        "candidate_url": "https://apps.apple.com/jp/app/yahoo-japan/id299147843",
+        "platform": "apps.apple.com",
+        "confidence_score": 13,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page.",
+          "Company overlap detected: ai."
+        ],
+        "evidence": {
+          "url": "https://apps.apple.com/jp/app/yahoo-japan/id299147843",
+          "title": "âYahoo! JAPANã¢ããª - App Store",
+          "description": "Yahoo Japan Corporationã®ãYahoo! JAPANããAppÂ Storeã§ãã¦ã³ã­ã¼ããã¦ãã ãããã¹ã¯ãªã¼ã³ã·ã§ãããè©ä¾¡ã¨ã¬ãã¥ã¼ãã¦ã¼ã¶ã®ãã³ãããYahoo! JAPANãã«ä¼¼ãã²ã¼ã ãè¦ããã¨ãªã©ãã§ãã¾ãã",
+          "text_excerpt": "Yahoo! JAPAN ãã¥ã¼ã¹ã«æ¤ç´¢ãé¨é²ã¬ã¼ãã¼ãã ç¡æ ããã£ããå½¢å¼ã§æ å ±ã®æ·±æããã§ãããAIã¢ã·ã¹ã¿ã³ãããç»å ´ã çæAIã«ãã£ããå½¢å¼ã§ç´æ¥è³ªåãã§ããæ©è½ããæ¤ç´¢çªæ¨ªã«è¿½å ããã¾ããã ---------- ãã¥ã¼ã¹ãå¤©æ°ãã¡ã¼ã«ãªã©ã«å ãã¯ã¼ãã³ã¾ã§ããã®ã¢ããªä¸ã¤ã§æ¯æ¥ã®çæ´»ãè±ãã«ãä¾¿å©ã«ãããã¯ã«ã§ãã¾ãã ããªãã®å¥½ã¿ãå­¦ç¿ããã®ã§ãè¦ãããã¥ã¼ã¹ãéãã¾ããã ãµãã«ã¼ãéçãªã©ã®ã¹ãã¼ãéå ±ãããã·ã¥éç¥ã§ãå±ããå¤§ããªãã¥ã¼ã¹ãå°éãè­¦å ±ãªã©ã®éè¦ãªæ å ±ãå±ãã®ã§ããã",
+          "domain": "apps.apple.com",
+          "platform": "apps.apple.com",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://apps.apple.com/jp/iphone/today",
+            "https://apps.apple.com/jp/ipad/today",
+            "https://apps.apple.com/jp/mac/discover",
+            "https://apps.apple.com/jp/vision/apps-and-games",
+            "https://apps.apple.com/jp/watch/apps-and-games",
+            "https://apps.apple.com/jp/tv/discover",
+            "https://apps.apple.com/jp/iphone/games",
+            "https://apps.apple.com/jp/iphone/apps",
+            "https://apps.apple.com/jp/iphone/arcade"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "âYahoo! JAPANã¢ããª",
+        "handle": "id299147843",
+        "bio": "Yahoo Japan Corporationã®ãYahoo! JAPANããAppÂ Storeã§ãã¦ã³ã­ã¼ããã¦ãã ãããã¹ã¯ãªã¼ã³ã·ã§ãããè©ä¾¡ã¨ã¬ãã¥ã¼ãã¦ã¼ã¶ã®ãã³ãããYahoo! JAPANãã«ä¼¼ãã²ã¼ã ãè¦ããã¨ãªã©ãã§ãã¾ãã",
+        "company": "ai",
+        "location": "",
+        "links": [
+          "https://apps.apple.com/jp/app/yahoo-japan/id299147843",
+          "https://apps.apple.com/jp/iphone/today",
+          "https://apps.apple.com/jp/ipad/today",
+          "https://apps.apple.com/jp/mac/discover",
+          "https://apps.apple.com/jp/vision/apps-and-games",
+          "https://apps.apple.com/jp/watch/apps-and-games",
+          "https://apps.apple.com/jp/tv/discover"
+        ],
+        "evidence_snippets": [
+          "âYahoo! JAPANã¢ããª - App Store",
+          "Yahoo Japan Corporationã®ãYahoo! JAPANããAppÂ Storeã§ãã¦ã³ã­ã¼ããã¦ãã ãããã¹ã¯ãªã¼ã³ã·ã§ãããè©ä¾¡ã¨ã¬ãã¥ã¼ãã¦ã¼ã¶ã®ãã³ãããYahoo! JAPANãã«ä¼¼ãã²ã¼ã ãè¦ããã¨ãªã©ãã§ãã¾ãã",
+          "Yahoo! JAPAN ãã¥ã¼ã¹ã«æ¤ç´¢ãé¨é²ã¬ã¼ãã¼ãã ç¡æ ããã£ããå½¢å¼ã§æ å ±ã®æ·±æããã§ãããAIã¢ã·ã¹ã¿ã³ãããç»å ´ã çæAIã«ãã£ããå½¢å¼ã§ç´æ¥è³ªåãã§ããæ©"
+        ],
+        "extraction_notes": [
+          "Company clue inferred from overlap with candidate page text."
+        ],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [
+          "Shared company clue: ai."
+        ],
+        "citations": [
+          "URL: https://apps.apple.com/jp/app/yahoo-japan/id299147843",
+          "Title: âYahoo! JAPANã¢ããª - App Store",
+          "Description: Yahoo Japan Corporationã®ãYahoo! JAPANããAppÂ Storeã§ãã¦ã³ã­ã¼ããã¦ãã ãããã¹ã¯ãªã¼ã³ã·ã§ãããè©ä¾¡ã¨ã¬ãã¥ã¼ãã¦ã¼ã¶ã®ãã³ããã"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page.",
+          "Company overlap detected: ai."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3",
+        "platform": "baike.sogou.com",
+        "confidence_score": 5,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "evidence": {
+          "url": "https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3",
+          "title": "山东化工职业学院(潍坊市化工类公办院校)_搜狗百科",
+          "description": "百科是一部有着平等、协作、分享、自由理念的网络百科全书，为每一个互联网用户创造一个涵盖所有领域知识、服务的中文知识性平台。",
+          "text_excerpt": "百科新知，搜一下！ 山东化工职业学院（Shandong Chemical Engineering & Vocational College，简称山东化工学院）是经山东省政府批准、教育部备案设立的 公办全日制普通高等职业院校 ，位于山东省潍坊市 [1] 。 学院占地1100亩，设有化学工程学院、机电工程学院、管理工程学院等7个教学单位，开设应用化工技术、石油化工技术、机械制造及自动化、机电一体化技术等38个专业（截至2025年5月官网数据显示） [1] 。 学校由中国石化集团齐鲁石化公司 2003年创建 ；2017年整建制搬迁至潍坊市办学发展；2021年2月学校经省政府正式批复完成举办者变更 [1] 。 简称 山东化院、SCEV 所属地区 山东省潍坊市 类别 公立高校 学校类型 化工类 属性 省属公办全日制综合性普通高等学校 主管部门 山东省 中文名 山东化工职业学院 党委书记 孔祥奴 [2]",
+          "domain": "baike.sogou.com",
+          "platform": "baike.sogou.com",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [],
+          "warning_signals": [],
+          "outgoing_links": []
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "fullLemma?lid=7568758&g_ut=3",
+        "bio": "百科是一部有着平等、协作、分享、自由理念的网络百科全书，为每一个互联网用户创造一个涵盖所有领域知识、服务的中文知识性平台。",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3"
+        ],
+        "evidence_snippets": [
+          "山东化工职业学院(潍坊市化工类公办院校)_搜狗百科",
+          "百科是一部有着平等、协作、分享、自由理念的网络百科全书，为每一个互联网用户创造一个涵盖所有领域知识、服务的中文知识性平台。",
+          "百科新知，搜一下！ 山东化工职业学院（Shandong Chemical Engineering & Vocational College，简称山东化工学院）是经山东省政府批准、教育部备案设立的 公办全日制普通高等职业院校 ，位于山东省潍坊市 [1] 。 学院占地1100亩，设有化学工程学院、机电工程学院、管理工程学院等7个教学单位，开设应用化工技术、石油化工技术、机械制造及自动化、机电一体化技术等38个专业（截至2025年5月官网数据"
+        ],
+        "extraction_notes": [],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3",
+          "Title: 山东化工职业学院(潍坊市化工类公办院校)_搜狗百科",
+          "Description: 百科是一部有着平等、协作、分享、自由理念的网络百科全书，为每一个互联网用户创造一个涵盖所有领域知识、服务的中文知识性平台。"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html",
+        "platform": "chinaschool.com.cn",
+        "confidence_score": 5,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "evidence": {
+          "url": "https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html",
+          "title": "å±±ä¸åå·¥èä¸å­¦é¢",
+          "description": "å±±ä¸åå·¥èä¸å­¦é¢æ¯ç»å±±ä¸çäººæ°æ¿åºæ¹åãå½å®¶æè²é¨å¤æ¡ãä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºãæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­å­¦æ ¡ã2003å¹´ï¼ä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºå±±ä¸åå·¥èä¸å­¦é¢ï¼2017å¹´ï¼å­¦é¢æä¸ºæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­ä¸ç§å­¦æ ¡ã",
+          "text_excerpt": "å±±ä¸ æå¨ä½ç½®: ä¸é¢ å±±ä¸çé«æ ¡_å±±ä¸åå·¥èä¸å­¦é¢ å±±ä¸åå·¥èä¸å­¦é¢ Shandong Chemical Engineering VocationalCollege å±æ§ï¼å ¬å ä¸ç§ | æå¨å°ï¼å±±ä¸çæ½åå¸ é¢ æ ¡ æ¦ è¿° | å å² å å± ç±»å | 41370 é¢æ ¡å®ç½ é¢æ ¡å±æ§ 2024å¹´6æ1æ¥",
+          "domain": "chinaschool.com.cn",
+          "platform": "chinaschool.com.cn",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://www.chinaschool.com.cn/zhinan/zhinan.html",
+            "https://www.chinaschool.com.cn/",
+            "https://www.chinaschool.com.cn/zhiyuan/zhiyuan.html",
+            "http://www.qledu.net/",
+            "http://zsjy.qledu.net/",
+            "https://www.chinaschool.com.cn/zhichina/zhichina2025.html"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "b_36.html",
+        "bio": "å±±ä¸åå·¥èä¸å­¦é¢æ¯ç»å±±ä¸çäººæ°æ¿åºæ¹åãå½å®¶æè²é¨å¤æ¡ãä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºãæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­å­¦æ ¡ã2003å¹´ï¼ä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºå±±ä¸åå·¥èä¸å­¦é¢ï¼2017å¹´ï¼å­¦é¢æä¸ºæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­ä¸ç§å­¦æ ¡ã",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html",
+          "https://www.chinaschool.com.cn/zhinan/zhinan.html",
+          "https://www.chinaschool.com.cn/",
+          "https://www.chinaschool.com.cn/zhiyuan/zhiyuan.html",
+          "http://www.qledu.net/",
+          "http://zsjy.qledu.net/",
+          "https://www.chinaschool.com.cn/zhichina/zhichina2025.html"
+        ],
+        "evidence_snippets": [
+          "å±±ä¸åå·¥èä¸å­¦é¢",
+          "å±±ä¸åå·¥èä¸å­¦é¢æ¯ç»å±±ä¸çäººæ°æ¿åºæ¹åãå½å®¶æè²é¨å¤æ¡ãä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºãæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­å­¦æ ¡ã2003å¹´ï¼ä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºå±±ä¸åå·¥èä¸å­¦é¢ï¼2017å¹´ï¼å­¦é¢æä¸ºæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶æ®éé«ç­ä¸ç§å­¦æ ¡ã",
+          "å±±ä¸ æå¨ä½ç½®: ä¸é¢ å±±ä¸çé«æ ¡_å±±ä¸åå·¥èä¸å­¦é¢ å±±ä¸åå·¥èä¸å­¦é¢ Shandong Chemical Engineering VocationalCollege å±æ§ï¼å ¬å ä¸ç§ | æå¨å°ï¼å±±ä¸çæ½åå¸ é¢ æ ¡ æ¦ è¿° | å "
+        ],
+        "extraction_notes": [],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html",
+          "Title: å±±ä¸åå·¥èä¸å­¦é¢",
+          "Description: å±±ä¸åå·¥èä¸å­¦é¢æ¯ç»å±±ä¸çäººæ°æ¿åºæ¹åãå½å®¶æè²é¨å¤æ¡ãä¸­å½ç³åéå¢é½é²ç³åå ¬å¸åå»ºãæ½åå¸äººæ°æ¿åºæ¿æ¥ç»­åçå ¬åå ¨æ¥å¶"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://heec.cahe.edu.cn/school/2554/jianjie",
+        "platform": "heec.cahe.edu.cn",
+        "confidence_score": 5,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "evidence": {
+          "url": "https://heec.cahe.edu.cn/school/2554/jianjie",
+          "title": "山东化工职业学院_简介",
+          "description": "山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生4100余人。学院享有国家奖学金、国家励志奖学金、国家助学金、省政府奖学金、生源地信用助学贷款等国家资助政策，设有学院奖学金和勤工助学岗位。 学院师资力量雄厚，拥有一支数量充足、业务精湛、结构合理的教师队伍，现有教职工245人，专任教师 205人，其中博士研究生1人，硕士研究生 184人。此外，学院还从企业聘请了大批高级工程师和能工巧匠作为兼职教师。 学院作为省内唯一一所化工专业特色职业院校，坚持“服务产业办专业”设置化学工程系、机电工程系、自动控制系、管理工程系、基础教学部、五年高职学院、航空学院7个教学单位和1个培训中心，开设20个专业。学生毕业颁发普通高等教育专科毕业证书，技能鉴定合格者颁发国家中高级职业资格证书。 学院遵循以立德树人为根本，以服务发展为宗旨，以促进就业为导向的发展理念，坚持依法治校，全面深化改革，加强内涵建设，注重职业教育和社会服务协调发展。学院的专业设置，以社会需求为依据，突出专业特色，加强专业建设，创新体制机制，深化校企合作，不断提高办学水平和人才培养质量。学院始终把素质高、技能强、应用广做为培养目标，坚持以人为本、服务社会、追求发展的教育策略，修德砺能、精工铸艺，努力实现学生知行合一、学以致用，为优质就业保驾护航。 学院由中国石化集团齐鲁石化公司创办，与中国石化、中国石油、中国海油、中国中化等央企有着天然的联系。学院与万华化学、华鲁恒升等国有大型企业，以及山东京博控股集团、淄博齐翔石化集团、香港建滔集团等多个企业建立了长期校企合作关系。学院搬入新校区后，又与国凯航空教育集团、新迈尔(北京)科技有限公司、齐商教育集团、山东润丰化工集团、新和成制药等企业建立了产教融合、校企合作运行机制。学生就业渠道十分通畅和广阔。近5年来毕业生就业率超过98%，2018年毕业生就业率达到99%。化工行业人才需求旺盛，毕业生供不应求，很多企业提前到学院预定人才。",
+          "text_excerpt": "山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生4100余人。学院享有国家奖学金、国家励志奖学金、国家助学金、省政府奖学金、生源地信用助学贷款等国家资助政策，设有学院奖学金和勤工助学岗位。 学院师资力量雄厚，拥有一支数量充足、业务精湛、结构合理的教师队伍，现有教职工245人，专任教师 205人，其中博士研究生1人，硕士研究生 184人。此外，学院还从企业聘请了大批高级工程师和能工巧匠作为兼职教师。 学院作为省内唯一一所化工专业特色职业院校，坚持“服务产业办专业”设置化学工程系、机电工程系、自动控制系、管理工程系、基础教学部、五年高职学院、航空学院7个教学单位和1个培训中心，开设20个专业。学生毕业颁发普通高等教育专科毕业证书，技能鉴定合格者颁发国家中高级职业资格证书。 学院遵循以立德树人为根本，以服务发展为宗旨，以促进就业为导向的发展理念，坚持依法治校，全面深化改革，加强内涵建设，注重职业教育和社会服务协调发展。学院的专业设置，以社会需求为依据，突出专业特色，加强专业建设，创新体制机制，深化校企合作，不断提高办学水平和人才培养质量。学院始终把素质高、技能强、应用广做为培养目标，坚持以人为本、服务社会、追求发展的教育策略，修德砺能、精工铸艺，努力实现学生知行合一、学以致用，",
+          "domain": "heec.cahe.edu.cn",
+          "platform": "heec.cahe.edu.cn",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://heec.cahe.edu.cn/login?back=https%3A%2F%2Fheec.cahe.edu.cn%2Fschool%2F2554%2Fjianjie",
+            "https://heec.cahe.edu.cn/register?back=https%3A%2F%2Fheec.cahe.edu.cn%2Fschool%2F2554%2Fjianjie",
+            "https://heec.cahe.edu.cn/news/yaowen/19079.html",
+            "https://heec.cahe.edu.cn/science/project",
+            "https://heec.cahe.edu.cn/school/2554",
+            "https://heec.cahe.edu.cn/school/2554/jianjie",
+            "https://heec.cahe.edu.cn/school/2554/news",
+            "https://heec.cahe.edu.cn/school/2554/science-project",
+            "https://heec.cahe.edu.cn/school/2554/startup-project",
+            "https://heec.cahe.edu.cn/member"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "jianjie",
+        "bio": "山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生4100余人。学院享有国家奖学金、国家励志奖学金、国家助学金、省政府奖学金、生源地信用助学贷款等国家资助政策，设有学院奖学金和勤工助学岗位。 学院师资力量雄厚，拥有一支数量充足、业务精湛、结构合理的教师队伍，现有教职工245人，专任教师 205人，其中博士研究生1人，硕士研究生 184人。此外，学院还从企业聘请了大批高级工程师和能工巧匠作为兼职教师。 学院作为省内唯一一所化工专业特色职业院校，坚持“服务产业办专业”设置化学工程系、机电工程系、自动控制系、管理工程系、基础教学部、五年高职学院、航空学院7个教学单位和1个培训中心，开设20个专业。学生毕业颁发普通高等教育专科毕业证书，技能鉴定合格者颁发国家中高级职业资格证书。 学院遵循以立德树人为根本，以服务发展为宗旨，以促进就业为导向的发展理念，坚持依法治校，全面深化改革，加强内涵建设，注重职业教育和社会服务协调发展。学院的专业设置，以社会需求为依据，突出专业特色，加强专业建设，创新体制机制，深化校企合作，不断提高办学水平和人才培养质量。学院始终把素质高、技能强、应用广做为培养目标，坚持以人为本、服务社会、追求发展的教育策略，修德砺能、精工铸艺，努力实现学生知行合一、学以致用，为优质就业保驾护航。 学院由中国石化集团齐鲁石化公司创办，与中国石化、中国石油、中国海油、中国中化等央企有着天然的联系。学院与万华化学、华鲁恒升等国有大型企业，以及山东京博控股集团、淄博齐翔石化集团、香港建滔集团等多个企业建立了长期校企合作关系。学院搬入新校区后，又与国凯航空教育集团、新迈尔(北京)科技有限公司、齐商教育集团、山东润丰化工集团、新和成制药等企业建立了产教融合、校企合作运行机制。学生就业渠道十分通畅和广阔。近5年来毕业生就业率超过98%，2018年毕业生就业率达到99%。化工行业人才需求旺盛，毕业生供不应求，很多企业提前到学院预定人才。",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://heec.cahe.edu.cn/school/2554/jianjie",
+          "https://heec.cahe.edu.cn/login?back=https%3A%2F%2Fheec.cahe.edu.cn%2Fschool%2F2554%2Fjianjie",
+          "https://heec.cahe.edu.cn/register?back=https%3A%2F%2Fheec.cahe.edu.cn%2Fschool%2F2554%2Fjianjie",
+          "https://heec.cahe.edu.cn/news/yaowen/19079.html",
+          "https://heec.cahe.edu.cn/science/project",
+          "https://heec.cahe.edu.cn/school/2554"
+        ],
+        "evidence_snippets": [
+          "山东化工职业学院_简介",
+          "山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生4100余人。学院享有国家奖学金、国家励志奖学金、国家助学金、省政府奖学金、生源地信用助学贷款等国家资助政策，设有学院奖学金和勤工助学岗位。 学院师资力量雄厚，拥有一支数量充足、业务精湛、结构合理的教师队伍，现有教职工245人，专任教师 205人，其中博士研究生1人，硕士研究生 184人。此外，学院还从企业聘请了大批高级工程师和能工巧匠作为兼职教师。 学院作为省内唯一一所化工专业特色职业院校，坚持“服务产业办专业”设置化学工程系、机电工程系、自动控制系、管理工程系、基础教学部、五年高职学院、航空学院7个教学单位和1个培训中心，开设20个专业。学生毕业颁发普通高等教育专科毕业证书，技能鉴定合格者颁发国家中高级职业资格证书。 学院遵循以立德树人为根本，以服务发展为宗旨，以促进就业为导向的发展理念，坚持依法治校，全面深化改革，加强内涵建设，注重职业教育和社会服务协调发展。学院的专业设置，以社会需求为依据，突出专业特色，加强专业建设，创新体制机制，深化校企合作，不断提高办学水平和人才培养质量。学院始终把素质高、技能强、应用广做为培养目标，坚持以人为本、服务社会、追求发展的教育策略，修德砺能、精工铸艺，努力实现学生知行合一、学以致用，为优质就业保驾护航。 学院由中国石化集团齐鲁石化公司创办，与中国石化、中国石油、中国海油、中国中化等央企有着天然的联系。学院与万华化学、华鲁恒升等国有大型企业，以及山东京博控股集团、淄博齐翔石化集团、香港建滔集团等多个企业建立了长期校企合作关系。学院搬入新校区后，又与国凯航空教育集团、新迈尔(北京)科技有限公司、齐商教育集团、山东润丰化工集团、新和成制药等企业建立了产教融合、校企合作运行机制。学生就业渠道十分通畅和广阔。近5年来毕业生就业率超过98%，2018年毕业生就业率达到99%。化工行业人才需求旺盛，毕业生供不应求，很多企业提前到学院预定人才。",
+          "山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生4100余人。学院享有国家奖学金、国家励志奖学金、国家助学金、省政府奖学金、生源"
+        ],
+        "extraction_notes": [],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://heec.cahe.edu.cn/school/2554/jianjie",
+          "Title: 山东化工职业学院_简介",
+          "Description: 山东化工职业学院是中国石化集团齐鲁石化公司创建、潍坊市人民政府2017年承接续办的公办全日制普通高等学校。学院位于世界风筝之都——山东潍坊，北邻欢乐海旅游度假区和国家一类开放口岸——潍坊森达美港，西临白浪河游艇旅游码头，环境优美，交通便利。 学院是山东省唯一一所化工类职业院校，化工特色明显，行业区位优越。学院占地面积550亩，建筑面积12.8万平方米，在校生"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+        "platform": "support.google.com",
+        "confidence_score": 5,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "evidence": {
+          "url": "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+          "title": "Get directions & show routes in Google Maps - Computer - Google Maps Help",
+          "description": "Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic regulation",
+          "text_excerpt": "Get directions & show routes in Google Maps Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic regulations and confirm signage from the road or path that you’re on. You can get directions for driving, public transit, walking, ride sharing, cycling, flight, or motorcycle on Google Maps. Get directions in Google Maps Tip: To choose another route in any transportation mode, select it on the map. Each route shows the estimated travel time on the map. You can get directions for different modes of transportation in Google Maps. Learn about the differences in features and a",
+          "domain": "support.google.com",
+          "platform": "support.google.com",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [
+            "Page content includes profile-style terms."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://www.google.com.ph/intl/en/about/products?tab=uh",
+            "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=http://support.google.com/maps/answer/144339%3Fhl%3Den%26co%3DGENIE.Platform%253DDesktop&ec=GAZAdQ",
+            "https://www.google.com/accounts/TOS",
+            "https://support.google.com/maps/answer/6194894",
+            "https://www.google.com/maps",
+            "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+            "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DAndroid",
+            "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DiOS"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "144339?hl=en&co=GENIE.Platform%3DDesktop",
+        "bio": "Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic regulation",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://www.google.com.ph/intl/en/about/products?tab=uh",
+          "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=http://support.google.com/maps/answer/144339%3Fhl%3Den%26co%3DGENIE.Platform%253DDesktop&ec=GAZAdQ",
+          "https://www.google.com/accounts/TOS",
+          "https://support.google.com/maps/answer/6194894",
+          "https://www.google.google.com/maps"
+        ],
+        "evidence_snippets": [
+          "Get directions & show routes in Google Maps - Computer - Google Maps Help",
+          "Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic regulation",
+          "Get directions & show routes in Google Maps Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffi"
+        ],
+        "extraction_notes": [
+          "Evidence does not match provided lead seed"
+        ],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop",
+          "Title: Get directions & show routes in Google Maps - Computer - Google Maps Help",
+          "Description: Report wrong directions Important: To keep yourself and others safe, stay aware of your surroundings when you use directions on Google Maps. When in doubt, follow actual traffic re"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+        "platform": "support.google.com",
+        "confidence_score": 5,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "evidence": {
+          "url": "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+          "title": "Use Street View in Google Maps - Computer - Google Maps Help",
+          "description": "You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and",
+          "text_excerpt": "Use Street View in Google Maps You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and Google Earth . Get to Street View in Google Maps To access Street View photos: Find street-level imagery from other dates Important: Historic imagery isn't available for every place that has Street View. You can find street-level imagery taken at different times from the Street View archives and other contributors. For example, you can explore how your neighbourhood has changed over time. Explore Street View in Google Maps Preview directions in Street View in Google Maps Important: To get dire",
+          "domain": "support.google.com",
+          "platform": "support.google.com",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [
+            "Page content includes profile-style terms."
+          ],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://www.google.com.ph/intl/en-GB/about/products?tab=uh",
+            "https://accounts.google.com/ServiceLogin?hl=en-NA&passive=true&continue=http://support.google.com/maps/answer/3093484%3Fhl%3Den-NA%26co%3DGENIE.Platform%253DDesktop&ec=GAZAdQ",
+            "https://www.google.com/accounts/TOS",
+            "https://www.google.com/maps",
+            "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+            "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DAndroid",
+            "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DiOS"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "Use Street View in Google Maps",
+        "handle": "3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+        "bio": "You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+          "https://www.google.com.ph/intl/en-GB/about/products?tab=uh",
+          "https://accounts.google.com/ServiceLogin?hl=en-NA&passive=true&continue=http://support.google.com/maps/answer/3093484%3Fhl%3Den-NA%26co%3DGENIE.Platform%253DDesktop&ec=GAZAdQ",
+          "https://www.google.com/accounts/TOS",
+          "https://www.google.com/maps",
+          "https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DAndroid"
+        ],
+        "evidence_snippets": [
+          "Use Street View in Google Maps - Computer - Google Maps Help",
+          "You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and",
+          "Use Street View in Google Maps You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and Google Earth . Get"
+        ],
+        "extraction_notes": [],
+        "normalized_by": "heuristic"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop",
+          "Title: Use Street View in Google Maps - Computer - Google Maps Help",
+          "Description: You can explore world landmarks and natural wonders, and experience places like museums, arenas, restaurants and small businesses with Street View in both Google Maps and"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page."
+        ],
+        "decided_by": "heuristic"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://www.merriam-webster.com/dictionary/guy",
+        "platform": "merriam-webster.com",
+        "confidence_score": 0,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "Page may provide indirect evidence, but it is not clearly a profile page.",
+          "First name appears on the candidate page.",
+          "Candidate title mentions a partial/conflicting name."
+        ],
+        "evidence": {
+          "url": "https://www.merriam-webster.com/dictionary/guy",
+          "title": "GUY Definition & Meaning - Merriam-Webster",
+          "description": "The meaning of GUY is man, fellow. How to use guy in a sentence. Did you know?",
+          "text_excerpt": "guy noun (1) guy noun (2) called also guyline guy verb (1) transitive verb guy verb (2) transitive verb Did you know?",
+          "domain": "merriam-webster.com",
+          "platform": "merriam-webster.com",
+          "page_type": "content_page",
+          "is_profile_like": false,
+          "is_directory_like": false,
+          "profile_signals": [],
+          "warning_signals": [],
+          "outgoing_links": [
+            "https://unabridged.merriam-webster.com/check-redirect-premium?utm_source=mw&utm_medium=global-nav-join&utm_campaign=evergreen",
+            "https://shop.merriam-webster.com/?utm_source=mwsite&utm_medium=nav&utm_content=header",
+            "https://merriamwebster.threadless.com/?utm_source=mwsite&utm_medium=nav&utm_content=header",
+            "https://docs.google.com/forms/d/1GAQr3Kn1cURCVHUA82hAga1Wv8DCH0IuqDLRUrOpN7M/viewform?ts=63f4f653&entry.1515682415=https://www.merriam-webster.com/dictionary%2Fguy",
+            "http://www.nglish.com/spanish/guy",
+            "https://www.britannica.com/EBchecked/topic/249989/Guy",
+            "https://unabridged.merriam-webster.com/check-redirect-premium?utm_source=mw&utm_medium=inline-def&utm_campaign=evergreen&headword=guy",
+            "https://www.merriam-webster.com/games/quordle/",
+            "https://corporate.britannica.com/advertise-with-us",
+            "https://www.facebook.com/merriamwebster",
+            "https://twitter.com/merriamwebster"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "GUY Definition & Meaning - Merriam-Webster",
+        "handle": "guy",
+        "bio": "The meaning of GUY is man, fellow. How to use guy in a sentence. Did you know?",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://www.merriam-webster.com/dictionary/guy",
+          "https://unabridged.merriam-webster.com/check-redirect-premium?utm_source=mw&utm_medium=global-nav-join&utm_campaign=evergreen",
+          "https://shop.merriam-webster.com/?utm_source=mwsite&utm_medium=nav&utm_content=header",
+          "https://merriamwebster.threadless.com/?utm_source=mwsite&utm_medium=nav&utm_content=header",
+          "https://docs.google.com/forms/d/1GAQr3Kn1cURCVHUA82hAga1Wv8DCH0IuqDLRUrOpN7M/viewform?ts=63f4f653&entry.1515682415=https://www.merriam-webster.com/dictionary%2Fguy",
+          "http://www.nglish.com/spanish/guy",
+          "https://www.britannica.com/EBchecked/topic/249989/Guy"
+        ],
+        "evidence_snippets": [
+          "GUY Definition & Meaning - Merriam-Webster",
+          "The meaning of GUY is man, fellow. How to use guy in a sentence. Did you know?",
+          "guy noun (1) guy noun (2) called also guyline guy verb (1) transitive verb guy verb (2) transitive verb Did you know?"
+        ],
+        "extraction_notes": [],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "The candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "URL: https://www.merriam-webster.com/dictionary/guy",
+          "Title: GUY Definition & Meaning - Merriam-Webster",
+          "Description: The meaning of GUY is man, fellow. How to use guy in a sentence. Did you know?"
+        ],
+        "review_notes": [
+          "Page may provide indirect evidence, but it is not clearly a profile page.",
+          "First name appears on the candidate page.",
+          "Candidate title mentions a partial/conflicting name."
+        ],
+        "decided_by": "groq"
+      }
+    },
+    {
+      "match": {
+        "candidate_url": "https://dictionary.cambridge.org/dictionary/english/guy",
+        "platform": "dictionary.cambridge.org",
+        "confidence_score": 0,
+        "confidence_label": "unlikely",
+        "reasons": [
+          "First name appears on the candidate page.",
+          "Page title/description looks like generic search or language content, not a person profile.",
+          "Candidate title mentions a partial/conflicting name."
+        ],
+        "evidence": {
+          "url": "https://dictionary.cambridge.org/dictionary/english/guy",
+          "title": "GUY | English meaning - Cambridge Dictionary",
+          "description": "GUY definition: 1. a man: 2. used to address a group of people of either sex: 3. in the UK, a model of a man that…. Learn more.",
+          "text_excerpt": "Meaning of guy in English Your browser doesn't support HTML5 audio Your browser doesn't support HTML5 audio You can also find related words, phrases, and synonyms in the topics: guy | American Dictionary Your browser doesn't support HTML5 audio Examples of guy Translations of guy Get a quick, free translation! Browse More meanings of guy Word of the Day",
+          "domain": "dictionary.cambridge.org",
+          "platform": "dictionary.cambridge.org",
+          "page_type": "directory_or_search",
+          "is_profile_like": false,
+          "is_directory_like": true,
+          "profile_signals": [],
+          "warning_signals": [
+            "Page title/description looks like generic search or language content, not a person profile."
+          ],
+          "outgoing_links": [
+            "https://www.facebook.com/CUPCambridgeDictionary/",
+            "https://www.instagram.com/cambridgewords",
+            "https://twitter.com/CambridgeWords",
+            "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdictionary.cambridge.org%2Fdictionary%2Fenglish%2Fguy&t=",
+            "https://twitter.com/intent/tweet?url=https%3A%2F%2Fdictionary.cambridge.org%2Fdictionary%2Fenglish%2Fguy&text=",
+            "https://dictionary.cambridge.org/dictionary/english/nice",
+            "https://dictionary.cambridge.org/dictionary/english/mean",
+            "https://dictionary.cambridge.org/dictionary/english/blonde",
+            "https://dictionary.cambridge.org/dictionary/english/hair",
+            "https://dictionary.cambridge.org/dictionary/english/glasses",
+            "https://dictionary.cambridge.org/dictionary/english/address",
+            "https://dictionary.cambridge.org/dictionary/english/group"
+          ]
+        }
+      },
+      "facts": {
+        "display_name": "",
+        "handle": "guy",
+        "bio": "GUY definition: 1. a man: 2. used to address a group of people of either sex: 3. in the UK, a model of a man that…. Learn more.",
+        "company": "",
+        "location": "",
+        "links": [
+          "https://dictionary.cambridge.org/dictionary/english/guy",
+          "https://www.facebook.com/CUPCambridgeDictionary/",
+          "https://www.instagram.com/cambridgewords",
+          "https://twitter.com/CambridgeWords",
+          "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdictionary.cambridge.org%2Fdictionary%2Fenglish%2Fguy&t=",
+          "https://twitter.com/intent/tweet?url=https%3A%2F%2Fdictionary.cambridge.org%2Fdictionary%2Fenglish%2Fguy&text=",
+          "https://dictionary.cambridge.org/dictionary/english/nice"
+        ],
+        "evidence_snippets": [
+          "GUY | English meaning - Cambridge Dictionary",
+          "GUY definition: 1. a man: 2. used to address a group of people of either sex: 3. in the UK, a model of a man that…. Learn more.",
+          "Meaning of guy in English Your browser doesn't support HTML5 audio Your browser doesn't support HTML5 audio You can also find related words, phrases, and synonyms in the topics: guy | American Dictionary Your browser doe"
+        ],
+        "extraction_notes": [
+          "Page title/description looks like generic search or language content, not a person profile."
+        ],
+        "normalized_by": "groq"
+      },
+      "decision": {
+        "status": "rejected",
+        "rationale": "Candidate is not a profile-like page or personal site.",
+        "matched_signals": [],
+        "citations": [
+          "https://dictionary.cambridge.org/dictionary/english/guy"
+        ],
+        "review_notes": [
+          "First name appears on the candidate page.",
+          "Page title/description looks like generic search or language content, not a person profile.",
+          "Candidate title mentions a partial/conflicting name."
+        ],
+        "decided_by": "groq"
+      }
+    }
+  ],
+  "merged_profile": {
+    "accepted_platforms": [
+      "About.me"
+    ],
+    "corroborating_platforms": [
+      "X",
+      "Twitter",
+      "Instagram",
+      "GitHub"
+    ],
+    "handles": [
+      "guykimhi",
+      "guy_kimhi"
+    ],
+    "websites": [
+      "https://about.me/guykimhi",
+      "https://x.com/guykimhi",
+      "https://help.x.com/using-x/x-supported-browsers",
+      "https://x.com/tos",
+      "https://x.com/privacy",
+      "https://support.x.com/articles/20170514",
+      "https://legal.twitter.com/imprint.html",
+      "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html",
+      "https://twitter.com/guykimhi",
+      "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo",
+      "https://www.instagram.com/guykimhi/",
+      "https://github.com/guykimhi"
+    ],
+    "companies": [
+      "Spirit Labs Ai"
+    ],
+    "locations": [
+      "Israel"
+    ],
+    "themes": [
+      "about",
+      "attend",
+      "available",
+      "aviv",
+      "browser",
+      "browsers",
+      "builds",
+      "business",
+      "center",
+      "continue",
+      "detected",
+      "development",
+      "direct",
+      "disabled",
+      "enable",
+      "entrepreneurship",
+      "event",
+      "github",
+      "guykimhi",
+      "help"
+    ]
+  },
+  "identity_decision": "The lead was enriched with 1 accepted external profile match(es). Verified evidence was found on About.me.",
+  "discovery_notes": [],
+  "lead_summary": "Guy Kimhi appears to have verified public presence on About.me. Top evidence: About.me: I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event. Corroborating public pages were also found on X, Twitter, Instagram, GitHub.",
+  "outreach_message": "Hi Guy,\n\nI came across your About.me and the mix of business in your public profile stood out.\nI have a specific idea that may fit that profile, and I would keep it brief.\nIf you are open to it, I can send a short note with the idea and why I thought of you specifically.\n\nBest,\n[Your Name]",
+  "agent_trace": null,
+  "agent_trace_path": "agent_trace.json",
+  "report_markdown": "# Lead Enrichment Report: Guy Kimhi\n\n## Execution\n- Requested mode: agent\n- Actual mode: agent\n- Requested model: llama-3.1-8b-instant\n- Active model: llama-3.1-8b-instant\n- Groq available: yes\n\n## LinkedIn Seed\n- URL: https://www.linkedin.com/in/guykimhi/\n- Name: Guy Kimhi\n- Headline: Leader in technology, entrepreneurship and business development\n- Company: Spirit Labs Ai\n- Location: Israel\n\n## Lead Summary\nGuy Kimhi appears to have verified public presence on About.me. Top evidence: About.me: I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event. Corroborating public pages were also found on X, Twitter, Instagram, GitHub.\n\n## Identity Decision\nThe lead was enriched with 1 accepted external profile match(es). Verified evidence was found on About.me.\n\n## Discovery Notes\n- Search discovery completed without provider-level blocking notes.\n\n## Accepted Matches\n- About.me: https://about.me/guykimhi\n  Confidence: strong (70/100)\n  Page type: social_profile\n  Decision: accepted via heuristic\n  Facts: name=Guy Kimhi | handle=guykimhi | company=n/a | location=n/a\n  Why accepted: Candidate is a real profile URL and passed the identity-evidence gate.\n  Signals: Full name aligns between LinkedIn seed and candidate profile.; Candidate handle overlaps with the LinkedIn slug.; Shared role/headline clue: business.\n  Citations: URL: https://about.me/guykimhi | Title: Guy Kimhi - Tel Aviv, ישראל | about.me | Description: I am a marketing manager, business owner, and teacher in Tel Aviv, ישראל. Attend my event.\n\n## Manual Review Candidates\n- X: https://x.com/guykimhi\n  Confidence: weak (30/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: Candidate handle overlaps with the LinkedIn slug.\n- Twitter: https://twitter.com/guykimhi\n  Confidence: weak (30/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: Candidate handle overlaps with the LinkedIn slug.\n- Instagram: https://www.instagram.com/guykimhi/\n  Confidence: weak (30/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: Full name aligns between LinkedIn seed and candidate profile.; Candidate handle overlaps with the LinkedIn slug.; Shared company clue: ai, labs, spirit.; Shared location clue: israel.\n- GitHub: https://github.com/guykimhi\n  Confidence: weak (30/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: Candidate handle overlaps with the LinkedIn slug.\n- X: https://x.com/guy_kimhi\n  Confidence: unlikely (25/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: First and last name both appear on the candidate page.\n- Twitter: https://twitter.com/guy_kimhi\n  Confidence: unlikely (25/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: Full name aligns between LinkedIn seed and candidate profile.; Shared company clue: ai, labs, spirit.; Shared role/headline clue: business, development, entrepreneurship, leader, technology.; Shared location clue: israel.\n- Instagram: https://www.instagram.com/guy_kimhi/\n  Confidence: unlikely (25/100)\n  Why held for review: Candidate has some identity overlap but not enough evidence for acceptance.\n  Signals: First and last name both appear on the candidate page.\n\n## Merged Evidence\n- Accepted platforms: About.me\n- Corroborating platforms/pages: X, Twitter, Instagram, GitHub\n- Handles: guykimhi, guy_kimhi\n- Websites: https://about.me/guykimhi, https://x.com/guykimhi, https://help.x.com/using-x/x-supported-browsers, https://x.com/tos, https://x.com/privacy, https://support.x.com/articles/20170514\n- Companies: Spirit Labs Ai\n- Locations: Israel\n\n## Rejected Candidates\n- apps.apple.com: https://apps.apple.com/jp/app/yahoo-japan/id299147843\n  Confidence: unlikely (13/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- baike.sogou.com: https://baike.sogou.com/m/fullLemma?lid=7568758&g_ut=3\n  Confidence: unlikely (5/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- chinaschool.com.cn: https://www.chinaschool.com.cn/i_region/i_15_shandong/b_36/b_36.html\n  Confidence: unlikely (5/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- heec.cahe.edu.cn: https://heec.cahe.edu.cn/school/2554/jianjie\n  Confidence: unlikely (5/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- support.google.com: https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform%3DDesktop\n  Confidence: unlikely (5/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- support.google.com: https://support.google.com/maps/answer/3093484?hl=en-NA&co=GENIE.Platform%3DDesktop\n  Confidence: unlikely (5/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n- merriam-webster.com: https://www.merriam-webster.com/dictionary/guy\n  Confidence: unlikely (0/100)\n  Why rejected: The candidate is not a profile-like page or personal site.\n- dictionary.cambridge.org: https://dictionary.cambridge.org/dictionary/english/guy\n  Confidence: unlikely (0/100)\n  Why rejected: Candidate is not a profile-like page or personal site.\n\n## Outreach Message\nHi Guy,\n\nI came across your About.me and the mix of business in your public profile stood out.\nI have a specific idea that may fit that profile, and I would keep it brief.\nIf you are open to it, I can send a short note with the idea and why I thought of you specifically.\n\nBest,\n[Your Name]\n\n## Source Notes\n- Seeded from the LinkedIn URL slug.\n- Parsed name from LinkedIn structured data.\n- Parsed company from LinkedIn structured data.\n- Parsed location from LinkedIn structured data.\n- Parsed name from the LinkedIn page title.\n- Parsed headline/company/location from LinkedIn meta description.\n- Search query used: \"Guy Kimhi\" site:x.com\n- Search query used: \"Guy Kimhi\" site:twitter.com\n- Search query used: \"Guy Kimhi\" site:instagram.com\n- Search query used: \"Guy Kimhi\" site:facebook.com\n- Search query used: \"Guy Kimhi\" site:youtube.com\n- Search query used: \"Guy Kimhi\" site:medium.com\n- Search query used: \"Guy Kimhi\" site:substack.com\n- Search query used: \"Guy Kimhi\" site:about.me\n- Search query used: \"Guy Kimhi\" (\"official site\" OR website OR blog OR newsletter OR portfolio)\n- Search query used: \"Guy Kimhi\" (site:medium.com OR site:substack.com OR site:about.me OR site:github.com OR site:dev.to)\n- Search query used: \"Guy Kimhi\" (\"author\" OR \"team\" OR \"speaker\" OR \"bio\")\n- Search query used: \"Guy Kimhi\" \"Spirit Labs Ai\" (\"team\" OR \"bio\" OR \"author\")\n- Search query used: \"Guy Kimhi\" official\n- Search query used: \"Guy Kimhi\" \"Spirit Labs Ai\"\n- Search query used: \"Guy Kimhi\" \"Israel\"\n- Search query used: \"guykimhi\" site:x.com\n- Search query used: \"guykimhi\" site:twitter.com\n- Search query used: \"guykimhi\" site:instagram.com\n- Search query used: \"guykimhi\" site:github.com\n- Search query used: \"guykimhi\" site:medium.com\n- Search query used: \"Guy Kimhi\" \"Spirit Labs Ai\" site:x.com\n- Search query used: \"Guy Kimhi\" \"Spirit Labs Ai\" site:youtube.com"
+}
